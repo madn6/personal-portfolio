@@ -32,7 +32,7 @@ export default function Projects() {
 						</div>
 						<div className="w-full  h-full overflow-hidden  ">
 							<img
-								src="/public/images/dummy5.webp"
+								src="/images/dummy5.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
 							/>
@@ -64,7 +64,7 @@ export default function Projects() {
 						</div>
 						<div className="w-full  h-full overflow-hidden  ">
 							<img
-								src="/public/images/dummy5.webp"
+								src="/images/dummy5.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
 							/>
@@ -96,7 +96,7 @@ export default function Projects() {
 						</div>
 						<div className="w-full  h-full overflow-hidden  ">
 							<img
-								src="/public/images/dummy5.webp"
+								src="/images/dummy5.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
 							/>
