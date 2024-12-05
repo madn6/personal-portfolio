@@ -11,7 +11,7 @@ export default function Navbar() {
 							className={`${
 								isDarkMode ? 'border-gray-300 border  border-opacity-50' : 'border-gray-100 border border-opacity-30'
 							} rounded-lg aspect-square object-cover lg:w-[68px] md:w-[68px] w-[52px]  transition-all duration-500`}
-							src="/public/images/m.webp"
+							src="/images/m.webp"
 						/>
 					</div>
 					<div className="names flex flex-col items-start ">
