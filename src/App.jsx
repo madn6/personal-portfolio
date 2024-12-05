@@ -79,7 +79,7 @@ export default function App() {
 		<>
 			{isLoading && <Preloader onComplete={handlePreloaderComplete} />}
 			<ThemeContext.Provider value={{ isDarkMode, toggleMode }}>
-				<div id="main" className="min-h-screen font-interDisplay">
+				<div id="main" className="w-full max-w-[1440px] mx-auto font-interDisplay">
 					<Header />
 					<Projects />
 					<AboutMe />
