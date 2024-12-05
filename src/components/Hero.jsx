@@ -15,9 +15,9 @@ export default function Hero() {
 					<button
 						className={`${
 							isDarkMode
-								? ' bg-gray-200 border-gray-300 border text-light-100 border-opacity-50'
-								: 'bg-[#ebebeb]  border border-gray-100 text-[#212121] border-opacity-30'
-						} flex items-center gap-1 opacity-100 hover:opacity-75  px-3 py-2 rounded-lg transition-all duration-500 `}
+								? ' bg-gray-200 border-gray-300 border text-light-100 border-opacity-50 hover:opacity-75'
+								: 'bg-[#ebebeb]  border border-gray-100 text-[#212121] border-opacity-30 hover:opacity-85'
+						} flex items-center gap-1 opacity-100   px-3 py-2 rounded-lg transition-all duration-500 `}
 					>
 						<svg
 							width="20"
@@ -46,9 +46,9 @@ export default function Hero() {
 					<button
 						className={`${
 							isDarkMode
-								? ' border-gray-300 border  text-light-100 border-opacity-50'
-								: 'border border-gray-100 text-[#212121] border-opacity-30'
-						} flex items-center opacity-100 hover:opacity-75 gap-1 px-3 py-2 rounded-lg transition-all duration-500 `}
+								? ' border-gray-300 border  text-light-100 border-opacity-50 hover:opacity-75'
+								: 'border border-gray-100 text-[#212121] border-opacity-30 hover:opacity-85'
+						} flex items-center opacity-100  gap-1 px-3 py-2 rounded-lg transition-all duration-500 `}
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
