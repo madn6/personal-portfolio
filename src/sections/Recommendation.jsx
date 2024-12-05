@@ -31,7 +31,7 @@ export default function Recommendation() {
 						className={`${
 							isDarkMode
 								? ' border-gray-300 border border-opacity-50'
-								: 'border border-gray-100 hover:bg-opacity-15  border-opacity-30'
+								: 'border border-gray-100 hover:bg-opacity-10  border-opacity-30'
 						} p-6 rounded-lg hover:bg-gray-200 hover:bg-opacity-40    cursor-pointer transition-all duration-300`}
 					>
 						<div
@@ -91,7 +91,7 @@ export default function Recommendation() {
 						className={`${
 							isDarkMode
 								? ' border-gray-300 border border-opacity-50'
-								: 'border border-gray-100 hover:bg-opacity-15  border-opacity-30'
+								: 'border border-gray-100 hover:bg-opacity-10  border-opacity-30'
 						} p-6 rounded-lg hover:bg-gray-200 hover:bg-opacity-40 cursor-pointer transition-all duration-300`}
 					>
 						<div
@@ -142,7 +142,7 @@ export default function Recommendation() {
 						className={`${
 							isDarkMode
 								? ' border-gray-300 border border-opacity-50'
-								: 'border border-gray-100 hover:bg-opacity-15 border-opacity-30'
+								: 'border border-gray-100 hover:bg-opacity-10 border-opacity-30'
 						} p-6 rounded-lg hover:bg-gray-200 hover:bg-opacity-40 cursor-pointer transition-all duration-300  `}
 					>
 						<div
