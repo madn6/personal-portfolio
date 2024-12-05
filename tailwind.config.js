@@ -16,7 +16,7 @@ export default {
 			},
 			fontFamily: {
 				interDisplay: ['Inter Display', 'sans-serif'],
-				taruno: ['Taruno Wide', 'sans-serif'],
+				taruno: ['Taruno Wide'],
 			},
 			fontWeight: {
 				thin: 100,
