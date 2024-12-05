@@ -45,7 +45,7 @@ const Preloader = ({ onComplete }) => {
 
 	return (
 		<div className="preloader fixed top-0 left-0 w-full h-full bg-[#121212] flex justify-center items-center z-50">
-			<div className="text-4xl md:text-6xl lg:text-8xl font-Taruno font-bold text-light-100 flex space-x-2">
+			<div className="text-4xl md:text-6xl lg:text-8xl font-taruno font-bold text-light-100 flex space-x-2">
 				{/* Wrap each letter in a span for animation */}
 				{[...'Mathan'].map((letter, index) => (
 					<span key={index} className="letter opacity-0">
