@@ -28,8 +28,8 @@ const Preloader = ({ onComplete }) => {
 				scale: 1, // Final scale (normal size)
 				duration: 0.7, // Duration of each letter animation
 				ease: 'power4.out', // Smooth easing for the animation
-                stagger: 0.2, // Delay between each letter's animation
-                delay:0.2,
+                stagger: 0.3, // Delay between each letter's animation
+                delay:0.4,
 			}
 		)
 			// Slide-up preloader smoothly after text animation
