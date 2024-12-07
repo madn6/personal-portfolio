@@ -29,7 +29,7 @@ const Preloader = ({ onComplete }) => {
 				duration: 0.7, // Duration of each letter animation
 				ease: 'power4.out', // Smooth easing for the animation
                 stagger: 0.2, // Delay between each letter's animation
-                delay:0.4,
+                delay:0.6,
 			}
 		)
 			// Slide-up preloader smoothly after text animation
