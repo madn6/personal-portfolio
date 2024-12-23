@@ -45,7 +45,7 @@ export default function TechStack() {
 									<h1 className={`${isDarkMode ? ' text-light-100' : ''} font-semibold`}>
 										{skill.name}
 									</h1>
-									<p className="text-sm">{skill.description}</p>
+									<p>{skill.description}</p>
 								</div>
 							</div>
 						);
