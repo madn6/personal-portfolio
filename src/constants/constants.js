@@ -16,7 +16,7 @@ export const skillsData = [
 	{
 		id: 3,
 		name: 'Sass',
-		description: 'Advanced css',
+		description: 'Advance css',
 		icon: '/svg/sass.svg' // Path to the Sass SVG icon
 	},
 	{
@@ -40,7 +40,7 @@ export const skillsData = [
 	{
 		id: 7,
 		name: 'Redux',
-		description: 'State management',
+		description: 'State manage',
 		icon: '/svg/redux.svg' // Path to the Redux SVG icon
 	},
 	{
