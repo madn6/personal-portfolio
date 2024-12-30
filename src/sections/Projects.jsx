@@ -102,7 +102,7 @@ export default function Projects() {
 							/>
 						</div>
 						{/* Content */}
-						<div className="">
+						<div>
 							<h1
 								className={`${
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
