@@ -30,9 +30,9 @@ export default function Projects() {
 						>
 							Oct 2024
 						</div>
-						<div className="w-full  h-full overflow-hidden  ">
+						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
 							<img
-								src="/images/dummy5.webp"
+								src="/images/cheems-meme.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
 							/>
@@ -44,9 +44,9 @@ export default function Projects() {
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
 								} transition-all duration-500 mt-2 text-lg font-semibold`}
 							>
-								Luna
+								Stay tuned
 							</h1>
-							<p className="text-base">Strategic design for health care brand.</p>
+							<p className="text-base">Something amazing is on its way!</p>
 						</div>
 					</div>
 				</div>
@@ -62,9 +62,9 @@ export default function Projects() {
 						>
 							Oct 2024
 						</div>
-						<div className="w-full  h-full overflow-hidden  ">
+						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
 							<img
-								src="/images/dummy5.webp"
+								src="/images/cheems-meme.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
 							/>
@@ -76,9 +76,9 @@ export default function Projects() {
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
 								} transition-all duration-500 mt-2 text-lg font-semibold`}
 							>
-								Luna
+								Stay tuned
 							</h1>
-							<p className="text-base">Strategic design for health care brand.</p>
+							<p className="text-base">Something amazing is on its way!</p>
 						</div>
 					</div>
 				</div>
@@ -94,9 +94,9 @@ export default function Projects() {
 						>
 							Oct 2024
 						</div>
-						<div className="w-full  h-full overflow-hidden  ">
+						<div className="w-full bg-gray-100 rounded-sm  h-full overflow-hidden  ">
 							<img
-								src="/images/dummy5.webp"
+								src="/images/cheems-meme.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
 							/>
@@ -108,9 +108,9 @@ export default function Projects() {
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
 								} transition-all duration-500 mt-2 text-lg font-semibold`}
 							>
-								Luna
+								Stay tuned
 							</h1>
-							<p className="text-base">Strategic design for health care brand.</p>
+							<p className="text-base">Something amazing is on its way!</p>
 						</div>
 					</div>
 				</div>
