@@ -30,11 +30,16 @@ export default function Projects() {
 						>
 							Oct 2024
 						</div>
-						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
+						<div className="w-full    h-full overflow-hidden  ">
 							<img
-								src="/images/cheems-meme.webp"
+								src="/images/dummy5.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
+							/>
+							<img
+								src="/images/cheems-meme.webp"
+								alt="Overlay Image"
+								className="absolute grayscale top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 							/>
 						</div>
 						{/* Content */}
@@ -64,9 +69,14 @@ export default function Projects() {
 						</div>
 						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
 							<img
-								src="/images/cheems-meme.webp"
+								src="/images/dummy5.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
+							/>
+							<img
+								src="/images/cheems-meme.webp"
+								alt="Overlay Image"
+								className="absolute grayscale top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 							/>
 						</div>
 						{/* Content */}
@@ -94,11 +104,16 @@ export default function Projects() {
 						>
 							Oct 2024
 						</div>
-						<div className="w-full bg-gray-100 rounded-sm  h-full overflow-hidden  ">
+						<div className="w-full  h-full overflow-hidden  ">
 							<img
-								src="/images/cheems-meme.webp"
+								src="/images/dummy5.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
+							/>
+							<img
+								src="/images/cheems-meme.webp"
+								alt="Overlay Image"
+								className="absolute grayscale top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 							/>
 						</div>
 						{/* Content */}
