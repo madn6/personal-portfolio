@@ -4,13 +4,13 @@ export const skillsData = [
 	{
 		id: 1,
 		name: 'HTML5',
-		description: 'layout',
+		description: 'Layout',
 		icon: '/svg/html.svg' // Path to the HTML5 SVG icon
 	},
 	{
 		id: 2,
 		name: 'CSS3',
-		description: 'styling',
+		description: 'Styling',
 		icon: '/svg/css.svg' // Path to the CSS3 SVG icon
 	},
 	{
@@ -22,13 +22,13 @@ export const skillsData = [
 	{
 		id: 4,
 		name: 'Tailwind',
-		description: 'Utility-first',
+		description: 'Utility css',
 		icon: '/svg/tailwind.svg' // Path to the Tailwind CSS SVG icon
 	},
 	{
 		id: 5,
 		name: 'JavaScript',
-		description: 'interaction',
+		description: 'Interaction',
 		icon: '/svg/javascript.svg' // Path to the JavaScript SVG icon
 	},
 	{
