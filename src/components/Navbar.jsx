@@ -9,7 +9,9 @@ export default function Navbar() {
 					<div className="logo">
 						<img
 							className={`${
-								isDarkMode ? 'border-gray-300 border  border-opacity-50' : 'border-gray-100 border border-opacity-30'
+								isDarkMode
+									? 'border-gray-300 border  border-opacity-50'
+									: 'border-gray-100 border border-opacity-30'
 							} rounded-lg aspect-square object-cover lg:w-[68px] md:w-[68px] w-[52px]  transition-all duration-500`}
 							src="/images/m.webp"
 						/>
@@ -38,8 +40,9 @@ export default function Navbar() {
 					} transition-all duration-500   `}
 				>
 					{isDarkMode ? (
-						<div className="day__svg  text-light-100">
+						<div className="day__svg  text-light-100 ">
 							<svg
+								className="transition-all duration-500"
 								width="18"
 								height="18"
 								viewBox="0 0 18 18"
@@ -114,8 +117,9 @@ export default function Navbar() {
 							</svg>
 						</div>
 					) : (
-						<div className="night__svg text-gray-200  ">
+						<div className="night__svg text-gray-200">
 							<svg
+								className="transition-all duration-500"
 								width="18"
 								height="18"
 								viewBox="0 0 18 18"
