@@ -31,13 +31,11 @@ export default function Projects() {
 							Oct 2024
 						</div>
 						<div className="w-full  h-full overflow-hidden  ">
-							<a href="m6blog.onrender.com" target='_blank'>
-								<img
-									src="/images/collage.png"
-									alt="Project Image"
-									className="w-full h-full object-contain rounded-sm"
-								/>
-							</a>
+							<img
+								src="/images/dummy5.webp"
+								alt="Project Image"
+								className="w-full h-full object-contain rounded-sm"
+							/>
 						</div>
 						{/* Content */}
 						<div className="">
@@ -46,9 +44,9 @@ export default function Projects() {
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
 								} transition-all duration-500 mt-2 text-lg font-semibold`}
 							>
-								Luna
+								Stay tuned
 							</h1>
-							<p className="text-base">Strategic design for health care brand.</p>
+							<p className="text-base">Something amazing is on its way!</p>
 						</div>
 					</div>
 				</div>
@@ -64,11 +62,16 @@ export default function Projects() {
 						>
 							Oct 2024
 						</div>
-						<div className="w-full  h-full overflow-hidden  ">
+						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
 							<img
 								src="/images/dummy5.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
+							/>
+							<img
+								src="/images/cheems-meme.webp"
+								alt="Overlay Image"
+								className="absolute grayscale top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 							/>
 						</div>
 						{/* Content */}
@@ -78,9 +81,9 @@ export default function Projects() {
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
 								} transition-all duration-500 mt-2 text-lg font-semibold`}
 							>
-								Luna
+								Stay tuned
 							</h1>
-							<p className="text-base">Strategic design for health care brand.</p>
+							<p className="text-base">Something amazing is on its way!</p>
 						</div>
 					</div>
 				</div>
@@ -102,17 +105,22 @@ export default function Projects() {
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
 							/>
+							<img
+								src="/images/cheems-meme.webp"
+								alt="Overlay Image"
+								className="absolute grayscale top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+							/>
 						</div>
 						{/* Content */}
-						<div className="">
+						<div>
 							<h1
 								className={`${
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
 								} transition-all duration-500 mt-2 text-lg font-semibold`}
 							>
-								Luna
+								Stay tuned
 							</h1>
-							<p className="text-base">Strategic design for health care brand.</p>
+							<p className="text-base">Something amazing is on its way!</p>
 						</div>
 					</div>
 				</div>
