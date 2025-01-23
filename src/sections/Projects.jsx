@@ -31,11 +31,13 @@ export default function Projects() {
 							Oct 2024
 						</div>
 						<div className="w-full  h-full overflow-hidden  ">
-							<img
-								src="/images/dummy5.webp"
-								alt="Project Image"
-								className="w-full h-full object-contain rounded-sm"
-							/>
+							<a href="m6blog.onrender.com" target='_blank'>
+								<img
+									src="/images/collage.png"
+									alt="Project Image"
+									className="w-full h-full object-contain rounded-sm"
+								/>
+							</a>
 						</div>
 						{/* Content */}
 						<div className="">
