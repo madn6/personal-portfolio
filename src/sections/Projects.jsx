@@ -14,7 +14,7 @@ export default function Projects() {
 				>
 					Featured Projects
 				</h1>
-				<p className="mb-7">2023 - 2024</p>
+				<p className="mb-7">2025 - 2026</p>
 			</div>
 
 			<div className="grid grid-cols-1  lg:grid-cols-3 md:grid-cols-2 gap-6">
@@ -28,12 +28,17 @@ export default function Projects() {
 									: 'px-2 py-1 text-xs rounded-md text-gray-200 bg-[#ebebeb] border border-gray-100'
 							} transition-all duration-500  absolute top-2 left-2`}
 						>
-							Oct 2024
+							Jan 2025
 						</div>
-						<div className="w-full  h-full overflow-hidden  ">
-							<a href="https://m6blog.onrender.com" target='_blank'>
+						<div
+							className={`${
+								isDarkMode ? 'border-gray-300 border-opacity-30 border-2' : 'border-none'
+							} rounded-sm  overflow-hidden`}
+						>
+							{' '}
+							<a href="https://m6blog.onrender.com" target="_blank">
 								<img
-									src="/images/collage.png"
+									src="/images/m6blog.png"
 									alt="Project Image"
 									className="w-full h-full object-contain rounded-sm"
 								/>
@@ -46,9 +51,9 @@ export default function Projects() {
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
 								} transition-all duration-500 mt-2 text-lg font-semibold`}
 							>
-								Stay tuned
+								Blog Application
 							</h1>
-							<p className="text-base">Something amazing is on its way!</p>
+							<p className="text-base">A sleek platform for sharing insights and stories</p>
 						</div>
 					</div>
 				</div>
@@ -62,7 +67,7 @@ export default function Projects() {
 									: 'px-2 py-1 text-xs rounded-md text-gray-200 bg-[#ebebeb] border border-gray-100'
 							} transition-all duration-500  absolute top-2 left-2 `}
 						>
-							Oct 2024
+							Mar 2025
 						</div>
 						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
 							<img
@@ -99,7 +104,7 @@ export default function Projects() {
 									: 'px-2 py-1 text-xs rounded-md text-gray-200 bg-[#ebebeb] border border-gray-100'
 							} transition-all duration-500  absolute top-2 left-2`}
 						>
-							Oct 2024
+							May 2025
 						</div>
 						<div className="w-full  h-full overflow-hidden  ">
 							<img
