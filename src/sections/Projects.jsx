@@ -38,7 +38,7 @@ export default function Projects() {
 							
 							<a href="https://m6blog.onrender.com" target="_blank">
 								<img
-									src="/public/images/collage1.jpg"
+									src="/images/collage1.jpg"
 									alt="Project Image"
 									className="w-full h-full object-contain rounded-sm"
 								/>
