@@ -44,7 +44,6 @@ export default function Projects() {
 								/>
 							</a>
 						</div>
-						
 						<div className="">
 							<h1
 								className={`${
