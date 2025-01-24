@@ -35,10 +35,10 @@ export default function Projects() {
 								isDarkMode ? 'border-gray-300 border-opacity-30 border-2' : 'border-none'
 							} rounded-sm  overflow-hidden`}
 						>
-							{' '}
+							
 							<a href="https://m6blog.onrender.com" target="_blank">
 								<img
-									src="/images/m6blog.png"
+									src="/public/images/collage (1).jpg"
 									alt="Project Image"
 									className="w-full h-full object-contain rounded-sm"
 								/>
@@ -57,7 +57,6 @@ export default function Projects() {
 						</div>
 					</div>
 				</div>
-				
 
 				<div className="">
 					<div className="card relative  ">
