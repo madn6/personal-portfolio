@@ -44,7 +44,7 @@ export default function Projects() {
 								/>
 							</a>
 						</div>
-						{/* Content */}
+						
 						<div className="">
 							<h1
 								className={`${
