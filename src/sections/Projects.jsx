@@ -31,7 +31,7 @@ export default function Projects() {
 							Oct 2024
 						</div>
 						<div className="w-full  h-full overflow-hidden  ">
-							<a href="m6blog.onrender.com" target='_blank'>
+							<a href="https://m6blog.onrender.com" target='_blank'>
 								<img
 									src="/images/collage.png"
 									alt="Project Image"
