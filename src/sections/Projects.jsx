@@ -30,12 +30,7 @@ export default function Projects() {
 						>
 							Jan 2025
 						</div>
-						<div
-							className={`${
-								isDarkMode ? 'border-gray-300 border-opacity-30 border-2' : 'border-none'
-							} rounded-sm  overflow-hidden`}
-						>
-							
+						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
 							<a href="https://m6blog.onrender.com" target="_blank">
 								<img
 									src="/images/dummy5.webp"
