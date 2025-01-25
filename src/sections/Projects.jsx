@@ -38,12 +38,18 @@ export default function Projects() {
 							
 							<a href="https://m6blog.onrender.com" target="_blank">
 								<img
-									src="/images/collage1.jpg"
+									src="/images/dummy5.webp"
 									alt="Project Image"
 									className="w-full h-full object-contain rounded-sm"
 								/>
+								<img
+									src="/images/desktop-post.png"
+									alt="Overlay Image"
+									className="absolute w-[95%] max-w-[400px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+								/>
 							</a>
 						</div>
+
 						<div className="">
 							<h1
 								className={`${
@@ -73,11 +79,6 @@ export default function Projects() {
 								src="/images/dummy5.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
-							/>
-							<img
-								src="/images/cheems-meme.webp"
-								alt="Overlay Image"
-								className="absolute grayscale top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 							/>
 						</div>
 						{/* Content */}
@@ -110,11 +111,6 @@ export default function Projects() {
 								src="/images/dummy5.webp"
 								alt="Project Image"
 								className="w-full h-full object-contain rounded-sm"
-							/>
-							<img
-								src="/images/cheems-meme.webp"
-								alt="Overlay Image"
-								className="absolute grayscale top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 							/>
 						</div>
 						{/* Content */}
