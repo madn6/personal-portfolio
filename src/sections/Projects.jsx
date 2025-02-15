@@ -70,14 +70,14 @@ export default function Projects() {
 							Jan 2025
 						</div>
 						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
-							<a href="https://fully-responsive-travel-website-j3bd.vercel.app/" target="_blank">
+							<a href="https://fully-responsive-travel-website-j3bd.vercel.app" target="_blank">
 								<img
 									src="/images/dummy5.webp"
 									alt="Project Image"
 									className="w-full h-full object-contain rounded-sm"
 								/>
 								<img
-									src="/images/travel.png"
+									src="../../dist/images/travel-post.png"
 									alt="Overlay Image"
 									className="absolute w-[95%] max-w-[400px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 								/>
