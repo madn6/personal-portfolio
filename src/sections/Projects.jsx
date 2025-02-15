@@ -58,6 +58,7 @@ export default function Projects() {
 						</div>
 					</div>
 				</div>
+
 				<div className="">
 					<div className="card relative  ">
 						<div
@@ -77,7 +78,7 @@ export default function Projects() {
 									className="w-full h-full object-contain rounded-sm"
 								/>
 								<img
-									src="../../dist/images/travel-post.png"
+									src="/images/travel-post.png"
 									alt="Overlay Image"
 									className="absolute w-[95%] max-w-[400px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 								/>
@@ -96,9 +97,8 @@ export default function Projects() {
 						</div>
 					</div>
 				</div>
-
 				<div className="">
-					<div className="card relative   ">
+					<div className="card relative  ">
 						<div
 							className={`${
 								isDarkMode
@@ -106,25 +106,32 @@ export default function Projects() {
 									: 'px-2 py-1 text-xs rounded-md text-gray-200 bg-[#ebebeb] border border-gray-100'
 							} transition-all duration-500  absolute top-2 left-2`}
 						>
-							May 2025
+							Jan 2025
 						</div>
-						<div className="w-full  h-full overflow-hidden  ">
-							<img
-								src="/images/dummy5.webp"
-								alt="Project Image"
-								className="w-full h-full object-contain rounded-sm"
-							/>
+						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
+							<a href="" target="_blank">
+								<img
+									src="/images/dummy5.webp"
+									alt="Project Image"
+									className="w-full h-full object-contain rounded-sm"
+								/>
+								<img
+									src="/images/travel-post.png"
+									alt="Overlay Image"
+									className="absolute w-[95%] max-w-[400px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+								/>
+							</a>
 						</div>
-						{/* Content */}
-						<div>
+
+						<div className="">
 							<h1
 								className={`${
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
 								} transition-all duration-500 mt-2 text-lg font-semibold`}
 							>
-								Stay tuned
+								Travelia UI
 							</h1>
-							<p className="text-base">Something amazing is on its way!</p>
+							<p className="text-base">Effortless booking, seamless experiences</p>
 						</div>
 					</div>
 				</div>
