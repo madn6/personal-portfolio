@@ -77,7 +77,7 @@ export default function Projects() {
 									className="w-full h-full object-contain rounded-sm"
 								/>
 								<img
-									src="../../dist/images/travel.png"
+									src="/images/travel.png"
 									alt="Overlay Image"
 									className="absolute w-[95%] max-w-[400px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 								/>
