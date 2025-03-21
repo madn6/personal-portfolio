@@ -19,7 +19,7 @@ export default function Projects() {
 			</div>
 
 			<div className="grid grid-cols-1  lg:grid-cols-3 md:grid-cols-2 gap-6">
-				{/* Project Card */}
+				{/* Project 1*/}
 				<div className="">
 					<div className="card relative  ">
 						<div
@@ -58,7 +58,7 @@ export default function Projects() {
 						</div>
 					</div>
 				</div>
-
+			   {/* project 2 */}
 				<div className="">
 					<div className="card relative  ">
 						<div
@@ -97,6 +97,7 @@ export default function Projects() {
 						</div>
 					</div>
 				</div>
+				{/* project 3 */}
 				<div className="">
 					<div className="card relative  ">
 						<div
@@ -109,11 +110,16 @@ export default function Projects() {
 							Mar 2025
 						</div>
 						<div className="w-full  bg-gray-100 rounded-sm  h-full overflow-hidden  ">
-							<a href="" target="_blank">
+							<a href="https://m6moviesearchapp.onrender.com" target="_blank">
 								<img
 									src="/images/dummy5.webp"
 									alt="Project Image"
 									className="w-full h-full object-contain rounded-sm"
+								/>
+								<img
+									src="/images/movie-search.png"
+									alt="Overlay Image"
+									className="absolute w-[95%] max-w-[400px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 								/>
 							</a>
 						</div>
@@ -124,9 +130,9 @@ export default function Projects() {
 									isDarkMode ? ' text-light-100' : ' text-[#212121]'
 								} transition-all duration-500 mt-2 text-lg font-semibold`}
 							>
-								Stay tuned
+								Movie Search App (use vpn)
 							</h1>
-							<p className="text-base">something amazing is waiting for you!</p>
+							<p className="text-base">Discover, Explore and Enjoy!</p>
 						</div>
 					</div>
 				</div>
